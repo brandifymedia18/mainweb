@@ -331,7 +331,7 @@ export default function ServicesPage() {
       {/* More Services Section */}
 <section className="bg-zinc-950 py-12">
   <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-    <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">Looking for More Services?</h2>
+    <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">Looking for More Customized Services?</h2>
     <p className="text-zinc-400 mb-6">
       Explore our full range of printing and designing services to help your brand grow even further.
     </p>
