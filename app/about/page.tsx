@@ -134,7 +134,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-zinc-900 rounded-lg overflow-hidden">
               <Image
-                src="/yash.jpg?height=300&width=400"
+                src="/y.png?height=300&width=400"
                 alt="Team Member"
                 width={400}
                 height={300}
@@ -151,7 +151,7 @@ export default function AboutPage() {
 
             <div className="bg-zinc-900 rounded-lg overflow-hidden">
               <Image
-                src="/atmaj.jpg?height=300&width=400"
+                src="/a.png?height=300&width=400"
                 alt="Team Member"
                 width={400}
                 height={300}
