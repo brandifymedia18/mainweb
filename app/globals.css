@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-rgb: 0, 0, 0;
+  --primary-blue: 25, 118, 210;
+  --accent-orange: 255, 109, 0;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+}
+
+.text-primary-blue {
+  color: rgb(var(--primary-blue));
+}
+
+.bg-primary-blue {
+  background-color: rgb(var(--primary-blue));
+}
+
+.text-accent-orange {
+  color: rgb(var(--accent-orange));
+}
+
+.bg-accent-orange {
+  background-color: rgb(var(--accent-orange));
+}
+
+.btn-primary {
+  @apply bg-primary-blue text-white px-6 py-2 rounded-md hover:opacity-90 transition-opacity;
+}
+
+.section-title {
+  @apply text-3xl md:text-4xl font-bold mb-6 relative;
+}
+
+.section-title::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 60px;
+  height: 4px;
+  background-color: rgb(var(--primary-blue));
+}
+
+.service-card {
+  @apply bg-zinc-900 p-6 rounded-lg transition-transform hover:scale-105;
+}
+
+.service-card:hover h3 {
+  @apply text-primary-blue;
+}
